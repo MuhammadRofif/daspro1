@@ -1,6 +1,7 @@
 #Membuat program kasir sederhana yang terdapat pembeli dan admin
 Muhammad Rofiif Taqiyyuddin Nabiil
 Nim 2309116029
+#Membuat program kasir sederhana yang terdapat pembeli dan admin
 nama_rubik = ["rubik 2x2", "rubik 3x3", "rubik 4x4", "rubik 5x5", "rubik 6x6"]
 kode = [1, 2, 3, 4, 5]
 harga_rubik = [10000, 30000, 50000, 70000, 90000]
@@ -39,23 +40,18 @@ while not A:
     
                     y = kode_produk
                     if y == kode[0]:
-                        total.append(jumlah_produk*harga_rubik[0])
                         total0 = jumlah_produk*harga_rubik[0]
                         print("Total harga keseluruhan barang   : Rp.", total0)
                     elif y == kode[1]:
-                        total.append(jumlah_produk*harga_rubik[1])
                         total1 = jumlah_produk*harga_rubik[1]
                         print("Total harga keseluruhan barang   : Rp.", total1)
                     elif y == kode[2]:
-                        total.append(jumlah_produk*harga_rubik[2])
                         total2 = jumlah_produk*harga_rubik[2]
                         print("Total harga keseluruhan barang   : Rp.", total2)
                     elif y == kode[3]:
-                        total.append(jumlah_produk*harga_rubik[3])
                         total3 = jumlah_produk*harga_rubik[3]
                         print("Total harga keseluruhan barang   : Rp.", total3)
                     elif y == kode[4]:
-                        total.append(jumlah_produk*harga_rubik[4])
                         total4= jumlah_produk*harga_rubik[4]
                         print("Total harga keseluruhan barang   : Rp.", total4)
                         #jika y maka akan memesan lagi,jika tidak akan kembali ke menu login karena mengimplementasi dari a true maka kemenu 
