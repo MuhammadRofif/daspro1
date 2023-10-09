@@ -1,4 +1,6 @@
 #Membuat program kasir sederhana yang terdapat pembeli dan admin
+Muhammad Rofiif Taqiyyuddin Nabiil
+Nim 2309116029
 nama_rubik = ["rubik 2x2", "rubik 3x3", "rubik 4x4", "rubik 5x5", "rubik 6x6"]
 kode = [1, 2, 3, 4, 5]
 harga_rubik = [10000, 30000, 50000, 70000, 90000]
